@@ -484,6 +484,7 @@ p {
 
 .footer-social-blok {
   width: 206px;
+  margin-right: 93px;
 }
 
 .footer > .container {
@@ -507,6 +508,39 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.footer-email-input {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  height: 86px;
+}
+
+.action-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-input-email {
+  display: flex;
+  gap: 12px;
+}
+
+.button-primary.send::after {
+  content: '';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
 }
 
 /*===== Portfolio =====*/
