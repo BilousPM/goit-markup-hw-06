@@ -480,6 +480,7 @@ p {
 
 .footer-adress-blok {
   margin-right: 70px;
+  min-width: 231px;
 }
 
 .footer-social-blok {
@@ -557,6 +558,11 @@ p {
 }
 
 .footer-input-fild:focus {
+  outline-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.footer-input-fild:not(:placeholder-shown) {
   outline-color: var(--accent-color);
   color: var(--primary-color);
 }
@@ -727,6 +733,8 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
+  background-color: transparent;
 
   padding: 0;
   width: 30px;
